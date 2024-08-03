@@ -1,23 +1,34 @@
-// const body = document.querySelector('.body')
-const bttn = document.querySelector('.btn');
-const bBtn = document.querySelector('#B');
-const aBtn = document.querySelector('#A');
-const wrapper = document.querySelector('.wrapper');
+const yesBtn = document.querySelector('#A');
+const noBtn = document.querySelector('#B');
 
-let abtn_height = 50;
-let abtn_width = 100;
-let abtn_font = 25;
+// let yesHeight = 50;
+// let yesWidht = 100;
+// let yesFont = 25;
 
-if(bBtn){
-
-    bBtn.addEventListener('click', () =>{
+// if(noBtn){
+//     noBtn.addEventListener('click', function(){
+//         yesHeight = yesHeight + 50;
+//         yesWidth = yesWidht = 50;
+//         yesFont += 10;
+//         yesBtn.style.height = `${yesHeight}px`;
+//         yesBtn.style.width = `${yesWidht}px`;
+//         yesBtn.style.fontSize = `${yesFont}px`;
+//     });
+// }
         
-        abtn_height = abtn_height + 50;
-        abtn_width = abtn_width + 50;
-        abtn_font += 10;
-    
-        aBtn.style.height = `${abtn_height}px`;
-        aBtn.style.width = `${abtn_width}px`;
-        aBtn.style.font = `${abtn_font}px`;
-    })
+// noBtn.addEventListener('mouseover', clickNoBtn);
+
+// function clickNoBtn(){
+//     const i = Math.floor(Math.random() * 500)+1;
+//     const j = Math.floor(Math.random() * 500)+1;
+
+//     noBtn.style.left =  i+'px';
+//     noBtn.style.top = j+'px';
+// }
+
+if(onclick="noBtn"){
+    noBtn.addEventListener('click', ()=>{
+        // const currentHeight = yesBtn.getBoundingClientRect();
+        yesBtn.style.height = yesBtn + 100 + "px";
+    });
 }
